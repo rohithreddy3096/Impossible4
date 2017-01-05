@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+
+html{
+	height: 100%;
+}
+
+.jumbotron{
+	background-color: #E40046;
+	color: #D6E4EC;
+	min-height: 200px;
+}
+
+.jumbotron h1{
+	font-family: 'Chewy', cursive;
+	letter-spacing: 8px;
+}
+
+.jumbotron h2{
+	font-family: 'Chewy', cursive;
+	letter-spacing: 5px;
+}
+
+
+.container-fluid{
+	background-image: url("background.png");
+}
+
+#div1{
+	text-align: center;
+}
+#div1 h1{
+	width: 150px;
+	margin: 0 auto;
+	padding: 60px 10px 50px 10px;
+	font-size: 50px;
+	color: #7ECDA0;
+}
+
+
+#div1 #btn1{
+	width: 120px;
+	margin: 40px 30px 60px 30px;
+	border: 2px solid #7ECDA0;
+}
+
+#div2{
+	text-align: center;
+}
+
+#div2 h1{
+	width: 150px;
+	margin: 0 auto;
+    padding: 60px 10px 50px 10px;
+	font-size: 50px;
+	color: #f72c11;
+}
+
+#div2 #btn2{
+	width: 120px;
+	margin: 40px 30px 60px 30px;
+	border: 2px solid #f72c11;
+}
+
+#div3{
+	text-align: center;
+}
+#div3 h1{
+	width: 150px;
+	margin: 0 auto;
+	padding: 60px 10px 50px 10px;
+	font-size: 50px;
+	color: #FFC32B;
+}
+
+#div3 #btn3{
+	width: 120px;
+	margin: 40px 30px 60px 30px;
+	border: 2px solid #FFC32B;
+}
+
+footer{
+	background-color: #5bd86b;
+	text-align: center;
+	margin-top: 20px;
+}
+
+a{
+	color: #242C2C;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+
+
+.button {
+  background-color: transparent;
+  border-radius: 4px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 0 22px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all .2s ease-in-out;
+}
+
+#btn1:hover {
+    background-color: #7ECDA0;
+ }
+
+ #btn2:hover {
+    background-color: #f72c11;
+ }
+ 
+ #btn3:hover {
+    background-color: #FFC32B;
+ }
+
+.roll-text {
+  display: block;
+  position: relative;
+  transition: all 420ms cubic-bezier(.175,.885,.32,1.275);
+}
+
+.roll-text:last-child {
+  color: #fff;
+}
+
+.rollover:hover .roll-text:first-child {
+  margin-top: -40px;
+}
+
+
