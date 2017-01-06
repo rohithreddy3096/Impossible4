@@ -140,7 +140,7 @@ function Game(x1){
         }
         msg += " - Click to reset";
         this.context.save();
-        this.context.font = '20pt sans-serif';
+        this.context.font = '15pt sans-serif';
         this.context.fillStyle = "#f70202";
         this.context.fillText(msg, 200, 20);
         this.context.restore();
